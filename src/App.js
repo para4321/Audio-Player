@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h1>Audio Player App</h1>
+    < marquee scrollamount="25" behavior=" sliding" direction="left"> <h1>Audio Player App</h1> </marquee>
       <input type="file" accept=".mp3" onChange={handleFileUpload} multiple />
       <h2>Playlist</h2>
       <ul>
